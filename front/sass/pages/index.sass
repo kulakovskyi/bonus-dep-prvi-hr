@@ -23,8 +23,8 @@ body
   overflow: hidden
   padding: 56px 0 0 0
   &__container
-    max-width: 1420px
-    padding: 0 15px
+    max-width: 1500px
+    padding: 0 95px 0 15px
     margin: 0 auto
   &__row
     display: flex
@@ -101,16 +101,32 @@ body
       height: 374px
       position: absolute
       bottom: 54px
-      left: 71px
+      left: 36px
       z-index: 0
     &-min
-      background: url('../img/back-min.png') no-repeat 50% 0/cover
+      background: url('../img/back-min.png') no-repeat 50% 0/contain
       width: 179px
       height: 135px
       position: absolute
       z-index: 3
       top: -60px
       left: 120px
+    &-text
+      position: absolute
+      z-index: 4
+      bottom: 17px
+      right: -66px
+      br
+        display: none
+      font-family: $font-suisse-reg
+      font-size: 11px
+      line-height: 14px
+      color: #FFFFFF
+      display: flex
+      flex-direction: column
+      align-items: flex-end
+
+
 
 
 
